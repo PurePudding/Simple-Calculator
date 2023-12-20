@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e3eb;
+}
+
+.container {
+  position: relative;
+  max-width: 30rem;
+  width: 100%;
+  border-radius: 1.2rem;
+  padding: 1rem 2rem 2rem;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.display {
+  height: 8rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #000e1a;
+  pointer-events: none;
+}
+
+.button {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.button button {
+  padding: 1rem;
+  border-radius: 0.6rem;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.button button:active {
+  transform: scale(0.99);
+}
+
+.operator {
+  color: #186db8;
+}
